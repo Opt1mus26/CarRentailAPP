@@ -176,10 +176,10 @@
             </objects>
             <point key="canvasLocation" x="2554" y="80"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--PTSStoryboard-->
         <scene sceneID="eG4-sq-dFJ">
             <objects>
-                <viewControllerPlaceholder id="uVa-bP-15f" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="PTSStoryboard" id="uVa-bP-15f" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RIN-yg-Tph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3242" y="79"/>

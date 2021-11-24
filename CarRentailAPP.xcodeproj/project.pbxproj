@@ -80,8 +80,6 @@
 				EA37A667274EA6F900AE3E63 /* WelcomeViewController.swift */,
 				EA37A669274EA71A00AE3E63 /* CarListViewController.swift */,
 				EA37A66B274EA73300AE3E63 /* DetailCarViewController.swift */,
-				EF922EC8274E99A7005B1595 /* LaunchScreen.storyboard */,
-				EF922EC6274E99A7005B1595 /* Assets.xcassets */,
 				EF922EC6274E99A7005B1595 /* Assets.xcassets */,
 				EF922ECB274E99A7005B1595 /* Info.plist */,
 				EF922EFD274EB2DB005B1595 /* Login + AboutUs.swift */,
@@ -310,7 +308,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeStoryboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = PTSStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,7 +336,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeStoryboard;
-				INFOPLIST_KEY_UIMainStoryboardFile = PTSStoryboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -24,4 +24,7 @@ class WelcomeViewController: UIViewController {
             Бронируйте прямо в приложении
         """
     }
+    @IBAction func unwind(for Segue: UIStoryboardSegue) {
+        
+    }
 }

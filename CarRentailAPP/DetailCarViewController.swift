@@ -30,9 +30,9 @@ class DetailCarViewController: UIViewController {
     }
     
     // MARK: - Navigation
-//
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        guard let reserveVC = segue.destination as? ReserveViewController else { return }
-//        reserveVC.car = car
-//    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let reserveVC = segue.destination as? ReserveViewController else { return }
+        reserveVC.car = car
+    }
 }

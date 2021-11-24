@@ -21,13 +21,13 @@ class ReserveViewController: UIViewController {
     
     private var login = Login(name: "", lastName: "", dateFrom: "", dateBefore: "")
     
-//    var car: Car!
+    var car: Car!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        carImage.image = UIImage(named: car.car)
-//        carModel.text = String(car.car)
+        carImage.image = UIImage(named: car.carNames)
+        carModel.text = String(car.carNames)
         
         nameTF.text = String(login.name)
         lastNameTF.text = String(login.lastName)
@@ -130,8 +130,7 @@ class ReserveViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let gratitudeVC = segue.destination as? GratitudeViewController else { return }
         gratitudeVC.login = login
-    }
-    @IBAction func unwind(for segue: UIStoryboardSegue) {
+        gratitudeVC.car = car
     }
 }
 

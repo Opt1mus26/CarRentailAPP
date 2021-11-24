@@ -16,7 +16,7 @@ class GratitudeViewController: UIViewController {
     @IBOutlet var backgroundImage: UIImageView!
     
     var login: Login!
-//    var car: Car!
+    var car: Car!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,7 @@ class GratitudeViewController: UIViewController {
         nameLabel.text = "\(login.fullname), спасибо, что выбрали нашу компанию!"
         dateFromLabel.text = "Бронь с \(login.dateFrom) - "
         dateBeforeLabel.text = "по \(login.dateBefore)!"
-//        gratitudeTF.text = car.car
+        gratitudeTF.text = String(car.carNames)
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
