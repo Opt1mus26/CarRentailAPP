@@ -12,7 +12,6 @@ class DetailCarViewController: UIViewController {
     @IBOutlet var imageCar: UIImageView!
     @IBOutlet var carDescriptionLabel: UILabel!
     
-    
     var car: Car!
     
     override func viewDidLoad() {
