@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA37A662274E9D2500AE3E63 /* WelcomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA37A661274E9D2500AE3E63 /* WelcomeStoryboard.storyboard */; };
 		EA37A664274EA65F00AE3E63 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37A663274EA65F00AE3E63 /* DataManager.swift */; };
 		EA37A666274EA66D00AE3E63 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37A665274EA66D00AE3E63 /* Model.swift */; };
 		EA37A668274EA6F900AE3E63 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA37A667274EA6F900AE3E63 /* WelcomeViewController.swift */; };
@@ -21,11 +20,10 @@
 		EF922F02274EB330005B1595 /* ReserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF922F01274EB330005B1595 /* ReserveViewController.swift */; };
 		EF922F04274EB33C005B1595 /* GratitudeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF922F03274EB33C005B1595 /* GratitudeViewController.swift */; };
 		EF922F06274EB349005B1595 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF922F05274EB349005B1595 /* AboutUsViewController.swift */; };
-		EF922F0C274EE0F7005B1595 /* WelcomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF922F0B274EE0F7005B1595 /* WelcomeStoryboard.storyboard */; };
+		EFA1D91F274FA90F00DE6A2C /* WelcomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA1D91E274FA90F00DE6A2C /* WelcomeStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA37A661274E9D2500AE3E63 /* WelcomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeStoryboard.storyboard; sourceTree = "<group>"; };
 		EA37A663274EA65F00AE3E63 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		EA37A665274EA66D00AE3E63 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		EA37A667274EA6F900AE3E63 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -41,7 +39,7 @@
 		EF922F01274EB330005B1595 /* ReserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveViewController.swift; sourceTree = "<group>"; };
 		EF922F03274EB33C005B1595 /* GratitudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeViewController.swift; sourceTree = "<group>"; };
 		EF922F05274EB349005B1595 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
-		EF922F0B274EE0F7005B1595 /* WelcomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WelcomeStoryboard.storyboard; sourceTree = "<group>"; };
+		EFA1D91E274FA90F00DE6A2C /* WelcomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = WelcomeStoryboard.storyboard; path = ../../../CarRentailAPP/CarRentailAPP/StoryBoards/WelcomeStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,16 +74,10 @@
 			children = (
 				EF922F07274EDCFB005B1595 /* App */,
 				EF922F0A274EE0BA005B1595 /* StoryBoards */,
-				EA37A663274EA65F00AE3E63 /* DataManager.swift */,
-				EA37A665274EA66D00AE3E63 /* Model.swift */,
-				EA37A667274EA6F900AE3E63 /* WelcomeViewController.swift */,
-				EA37A669274EA71A00AE3E63 /* CarListViewController.swift */,
-				EA37A66B274EA73300AE3E63 /* DetailCarViewController.swift */,
-				EF922EC6274E99A7005B1595 /* Assets.xcassets */,
-				EF922EFD274EB2DB005B1595 /* Login + AboutUs.swift */,
-				EF922F01274EB330005B1595 /* ReserveViewController.swift */,
-				EF922F03274EB33C005B1595 /* GratitudeViewController.swift */,
-				EF922F05274EB349005B1595 /* AboutUsViewController.swift */,
+				EFA1D920274FA91700DE6A2C /* Services */,
+				EFA1D921274FA92300DE6A2C /* Models */,
+				EFA1D922274FA92F00DE6A2C /* ViewControllers */,
+				EFA1D923274FA94200DE6A2C /* Resources */,
 			);
 			path = CarRentailAPP;
 			sourceTree = "<group>";
@@ -103,11 +95,48 @@
 		EF922F0A274EE0BA005B1595 /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
+				EFA1D91E274FA90F00DE6A2C /* WelcomeStoryboard.storyboard */,
 				EF922EFF274EB316005B1595 /* PTSStoryboard.storyboard */,
-				EA37A661274E9D2500AE3E63 /* WelcomeStoryboard.storyboard */,
-				EF922F0B274EE0F7005B1595 /* WelcomeStoryboard.storyboard */,
 			);
 			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		EFA1D920274FA91700DE6A2C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EA37A663274EA65F00AE3E63 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EFA1D921274FA92300DE6A2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA37A665274EA66D00AE3E63 /* Model.swift */,
+				EF922EFD274EB2DB005B1595 /* Login + AboutUs.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFA1D922274FA92F00DE6A2C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA37A667274EA6F900AE3E63 /* WelcomeViewController.swift */,
+				EA37A669274EA71A00AE3E63 /* CarListViewController.swift */,
+				EA37A66B274EA73300AE3E63 /* DetailCarViewController.swift */,
+				EF922F01274EB330005B1595 /* ReserveViewController.swift */,
+				EF922F03274EB33C005B1595 /* GratitudeViewController.swift */,
+				EF922F05274EB349005B1595 /* AboutUsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EFA1D923274FA94200DE6A2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF922EC6274E99A7005B1595 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,10 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF922F0C274EE0F7005B1595 /* WelcomeStoryboard.storyboard in Resources */,
 				EF922F00274EB317005B1595 /* PTSStoryboard.storyboard in Resources */,
 				EF922EC7274E99A7005B1595 /* Assets.xcassets in Resources */,
-				EA37A662274E9D2500AE3E63 /* WelcomeStoryboard.storyboard in Resources */,
+				EFA1D91F274FA90F00DE6A2C /* WelcomeStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
