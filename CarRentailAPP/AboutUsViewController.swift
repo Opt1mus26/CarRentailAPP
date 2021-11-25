@@ -15,8 +15,6 @@ class AboutUsViewController: UIViewController {
     @IBOutlet var aboutUsLabel: UILabel!
     @IBOutlet var anotherAboutUsLabel: UILabel!
     @IBOutlet var addressLabel: UILabel!
-    @IBOutlet var emailLabel: UILabel!
-    @IBOutlet var phoneLabel: UILabel!
     
     var login: Login!
     
@@ -38,9 +36,14 @@ class AboutUsViewController: UIViewController {
         anotherAboutUsImage.image = UIImage(named: "Alisa Tsyganova")
         aboutUsLabel.text = String(personOne.fullName)
         anotherAboutUsLabel.text = String("Alisa Tsyganova")
-        addressLabel.text = String(personOne.address)
-        emailLabel.text = String(personOne.email)
-        phoneLabel.text = String(personOne.phone)
+        addressLabel.text = String(
+                """
+                    \(personOne.address)
+                \n
+                    \(personOne.email)
+                \n
+                    \(personOne.phone)
+                """
+        )
     }
-    
 }

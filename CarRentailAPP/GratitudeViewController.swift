@@ -11,9 +11,9 @@ class GratitudeViewController: UIViewController {
     
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var dateFromLabel: UILabel!
-    @IBOutlet var dateBeforeLabel: UILabel!
     @IBOutlet var gratitudeTF: UILabel!
     @IBOutlet var backgroundImage: UIImageView!
+    @IBOutlet var carImage: UIImageView!
     
     var login: Login!
     var car: Car!
@@ -22,9 +22,9 @@ class GratitudeViewController: UIViewController {
         super.viewDidLoad()
         backgroundImage.image = UIImage(named: "BMW X1")
         backgroundImage.alpha = 0.3
+        carImage.image = UIImage(named: car.carNames)
         nameLabel.text = "\(login.fullname), спасибо, что выбрали нашу компанию!"
-        dateFromLabel.text = "Бронь с \(login.dateFrom) - "
-        dateBeforeLabel.text = "по \(login.dateBefore)!"
+        dateFromLabel.text = "Бронь с \(login.dateFrom) - по \(login.dateBefore)!"
         gratitudeTF.text = String(car.carNames)
     }
 

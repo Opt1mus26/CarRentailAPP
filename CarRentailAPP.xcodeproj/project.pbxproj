@@ -21,6 +21,7 @@
 		EF922F02274EB330005B1595 /* ReserveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF922F01274EB330005B1595 /* ReserveViewController.swift */; };
 		EF922F04274EB33C005B1595 /* GratitudeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF922F03274EB33C005B1595 /* GratitudeViewController.swift */; };
 		EF922F06274EB349005B1595 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF922F05274EB349005B1595 /* AboutUsViewController.swift */; };
+		EF922F0C274EE0F7005B1595 /* WelcomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF922F0B274EE0F7005B1595 /* WelcomeStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EF922F01274EB330005B1595 /* ReserveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReserveViewController.swift; sourceTree = "<group>"; };
 		EF922F03274EB33C005B1595 /* GratitudeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GratitudeViewController.swift; sourceTree = "<group>"; };
 		EF922F05274EB349005B1595 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		EF922F0B274EE0F7005B1595 /* WelcomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WelcomeStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,23 +74,40 @@
 		EF922EBC274E99A5005B1595 /* CarRentailAPP */ = {
 			isa = PBXGroup;
 			children = (
-				EF922EBD274E99A5005B1595 /* AppDelegate.swift */,
-				EF922EBF274E99A5005B1595 /* SceneDelegate.swift */,
-				EA37A661274E9D2500AE3E63 /* WelcomeStoryboard.storyboard */,
+				EF922F07274EDCFB005B1595 /* App */,
+				EF922F0A274EE0BA005B1595 /* StoryBoards */,
 				EA37A663274EA65F00AE3E63 /* DataManager.swift */,
 				EA37A665274EA66D00AE3E63 /* Model.swift */,
 				EA37A667274EA6F900AE3E63 /* WelcomeViewController.swift */,
 				EA37A669274EA71A00AE3E63 /* CarListViewController.swift */,
 				EA37A66B274EA73300AE3E63 /* DetailCarViewController.swift */,
 				EF922EC6274E99A7005B1595 /* Assets.xcassets */,
-				EF922ECB274E99A7005B1595 /* Info.plist */,
 				EF922EFD274EB2DB005B1595 /* Login + AboutUs.swift */,
-				EF922EFF274EB316005B1595 /* PTSStoryboard.storyboard */,
 				EF922F01274EB330005B1595 /* ReserveViewController.swift */,
 				EF922F03274EB33C005B1595 /* GratitudeViewController.swift */,
 				EF922F05274EB349005B1595 /* AboutUsViewController.swift */,
 			);
 			path = CarRentailAPP;
+			sourceTree = "<group>";
+		};
+		EF922F07274EDCFB005B1595 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF922EBD274E99A5005B1595 /* AppDelegate.swift */,
+				EF922EBF274E99A5005B1595 /* SceneDelegate.swift */,
+				EF922ECB274E99A7005B1595 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EF922F0A274EE0BA005B1595 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				EF922EFF274EB316005B1595 /* PTSStoryboard.storyboard */,
+				EA37A661274E9D2500AE3E63 /* WelcomeStoryboard.storyboard */,
+				EF922F0B274EE0F7005B1595 /* WelcomeStoryboard.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF922F0C274EE0F7005B1595 /* WelcomeStoryboard.storyboard in Resources */,
 				EF922F00274EB317005B1595 /* PTSStoryboard.storyboard in Resources */,
 				EF922EC7274E99A7005B1595 /* Assets.xcassets in Resources */,
 				EA37A662274E9D2500AE3E63 /* WelcomeStoryboard.storyboard in Resources */,
@@ -304,7 +324,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24LMK5CXTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CarRentailAPP/Info.plist;
+				INFOPLIST_FILE = CarRentailAPP/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeStoryboard;
@@ -332,7 +352,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24LMK5CXTP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CarRentailAPP/Info.plist;
+				INFOPLIST_FILE = CarRentailAPP/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = WelcomeStoryboard;
